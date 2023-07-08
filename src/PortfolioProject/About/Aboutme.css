@@ -1,0 +1,61 @@
+.aboutsec{
+    margin-top: 3%;
+}
+.aboutmehead{
+    font-size: 2rem;
+    color: #FF4742 !important;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.aboutrow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.job-desc{
+   
+    padding: 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 29px;
+}
+.highlights{
+    margin-left: 2rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.bullet-list{
+    color: #112240 !important;
+    font-weight: 500;
+    line-height: 39px;
+    margin-left: 2.1rem;
+    text-align: left;
+    font-family: system-ui;
+}
+.myinfo{
+    background-color: #00008b !important ;
+}
+.careerobj{
+    font-size: 1.5rem;
+    color: #FF4742;
+    font-weight: 600;
+    margin-top: 3%;
+    padding-top: 2rem;
+}
+.myobj{
+    margin-top: 1%;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 29px;
+}
+.sidebarimg{
+    border-radius: 15px;
+    margin-top: 3%;
+    opacity: 0.6;
+}
+@media(max-width : 600px) {
+    .bullet-list{
+        margin-left: 1.1rem !important;
+    }
+}

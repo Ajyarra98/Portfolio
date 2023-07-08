@@ -1,0 +1,65 @@
+.aboutmehead{
+    font-size: 2rem;
+    color: #FF4742;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.contactsec{
+    padding: 2rem;
+    background-color: #00008b;
+}
+.emailimg{
+    padding: 25px;
+    margin-top: 1%;
+    opacity: 0.6;
+    width: 100%;
+}
+.mobileno , .mailid{
+    color: white;
+}
+#icon1 , #icon2{
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+.form-ui{
+    padding: 25px;
+    background-color: #F7F5F4 !important;
+    margin-top: 30%;
+    border-radius: 12px;
+}
+.form-label{
+    color: #112240;
+    font-size: 18px;
+    text-align: left;
+}
+.nameinpt {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+.buttonstyle{
+    color: white;
+    font-size: 18px;
+    padding: 8px  25px;
+    background-color: #112240;
+    border: none;
+    border-radius: 35px;
+}
+.getintouch{
+    font-size: 1.5rem;
+    color: #FF4742;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+@media(max-width : 1000px){
+    .emailimg {
+        width: 100% !important;
+    }
+    .mobileno , .mailid{
+        font-size: 10px;
+    }
+}

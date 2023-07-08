@@ -1,0 +1,137 @@
+.title-name {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-left: 4%;
+    margin-top: 5%;
+    color: white;
+}
+.title-name2{
+    color: white;
+    font-size: 2.0rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 2%;
+}
+.menu-parent{
+    margin-top: 5%;
+}
+.menu-ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-li{
+    list-style: none;
+  
+}
+.menu-item{
+ 
+    margin-top: 2%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+.topline1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.topline1span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FF4742;
+    letter-spacing: 2px;
+}
+.profpic{
+        margin-top: 10%;
+    width: 100%;
+    border-radius: 50%;
+}
+.profilesec{
+    margin-top: 4%;
+}
+.prof-role{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: monospace;
+
+}
+.prof-bio{
+    margin-top: 6%;
+}
+
+.btn-parent{
+   
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-item{
+    list-style: none;
+}
+.prof-desc{
+    font-family: system-ui;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.buttonstyle{
+    color: white;
+    font-size: 18px;
+    padding: 8px  25px;
+    background-color: #112240;
+    border: none;
+    border-radius: 35px;
+}
+.buttonstyle1{
+    color: white;
+    font-size: 18px;
+    padding: 8px  25px;
+    background-color: #FF4742;
+    border: none;
+    border-radius: 35px;
+}
+.profile-container{
+    background-image: url('./wave.svg');
+    background-size: cover;
+}
+@media (min-width : 1000px){
+    .title-name2{
+        display: none;
+    }
+    
+}
+
+@media (max-width : 800px){
+    .menu-ul , .title-name {
+        display: none;
+    }
+    .btn-parent {
+        margin-right: 10%;
+    }
+    .topline1 {
+        position: relative;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 700;
+        bottom: 37px;
+    }
+    .prof-role{
+        padding-top: 25px;
+        font-size: 2.0rem;
+        font-weight: 700;
+        font-family: monospace;
+    
+    }
+    
+}
+@media (max-width : 320px){
+    .btn-parent {
+        margin-right: 5%;
+    }
+}

@@ -1,0 +1,138 @@
+.aboutmehead{
+    font-size: 2rem;
+    color: #9A1750;
+    font-weight: 700;
+    /* margin-bottom: 5%; */
+    margin-top: 5%;
+}
+.sidebar-li , .sidebar-ul-icon{
+    list-style: none;
+}
+.sideicons {
+    display: flex;
+}
+#mysepbtn{
+margin-left: 28% !important;
+}
+
+ul.sidebar-ul-icon {
+   
+    color: white;
+}
+.sidebar-liicon {
+    padding: 10px;
+    background: #00008b;
+    font-size: 25px;
+    line-height: 55px;
+}
+.center-diamond{
+    margin-bottom: 5%;
+    margin: 0px auto;
+    width: 10%;
+    border: 0; 
+  height: 1px; 
+  box-shadow: linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
+}
+.sidebar-li {
+    cursor: pointer;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 55px;
+    color: black;
+}
+.box-sh {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+ 
+.sidebar-li:hover {
+    background-color: #112240;
+    color: white;
+  }
+  .resudiv1 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+p.instname {
+    text-align: left;
+    font-weight: bold;
+    color: #FF4742;
+    font-size: 1.1rem;
+}
+p.instedu {
+    text-align: left;
+}
+.button1data,.button2data,.button3data,.button4data,.button5data,.button6data {
+    margin-left: 10%;
+}
+.resumebox{
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+}
+.buttonstyle122{
+    color: white;
+    font-size: 17px;
+    padding: 3px 19px;
+    background-color: #00008b;
+    border: none;
+    border-radius: 35px;
+    margin-left: 10%;
+}
+.buttonstyle1221{
+    color: white;
+    font-size: 17px;
+    padding: 3px 19px;
+    background-color: #00008b;
+    border: none;
+    border-radius: 35px;
+    margin-left: 35%;
+}
+ul.sidebar-ul {
+    position: relative;
+    right: 33px;
+}
+.work-desc , .work-desc1{
+    font-size: 15px;
+    text-align: left;
+}
+.progreess{
+    text-align: left;
+}
+@media(max-width : 800px){
+    .buttonstyle122 , .buttonstyle1221 {
+        background-color: #112240; 
+        margin-left: 25%;
+        margin-top: 4%;
+    }
+    #mysepbtn{
+margin-left: 32% !important;
+}
+    p.instedu {
+        margin-left: 25px;
+    }
+    #msexpbtn{
+        margin-left: 0% !important;
+    }
+    #msole{
+        margin-left: 0px !important;
+    }
+    .prodata{
+        margin-left: 0px !important;
+    }
+    .aboutmehead {
+        margin-top: 7%;
+       
+    }
+    .buttonstyle1221{
+        font-size: 13px !important;
+    }
+
+}
+
+@media screen and (min-device-width: 900px) and (max-device-width: 1200px) { 
+    .buttonstyle122{
+        margin-left: 1% !important;
+    }
+}
